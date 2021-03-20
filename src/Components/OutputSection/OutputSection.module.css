@@ -1,0 +1,13 @@
+.deleteBtn{
+    margin-left: 10px;
+    background-color: #ce1616;
+    border: none;
+    border-radius: 6px;
+    height: 20px;
+    color: white;
+}
+
+.deleteBtn:hover{
+    background-color: #6b0b0b;
+    color: white;
+}
