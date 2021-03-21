@@ -11,8 +11,6 @@ class App extends Component {
         filter: ''
       };     
 
-    if (currentContacts !== prevContacts) {
-      localStorage.setItem("contacts", JSON.stringify(currentContacts));
       componentDidMount() {
         const loadedContacts = JSON.parse(localStorage.getItem("contacts"));
         if (loadedContacts) this.setState({ contacts: loadedContacts });
